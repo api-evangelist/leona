@@ -1,0 +1,48 @@
+# Leona
+
+> Leona is a healthcare communication company building an AI co-pilot for doctors and
+> medical teams who run their practices over WhatsApp. Patients keep messaging WhatsApp
+> as they always have; the doctor's side moves into Leona, where conversations are
+> separated from personal messages, categorized and prioritized, summarized for context,
+> and voice notes are transcribed. Teams delegate chats by role, keep internal notes on a
+> patient invisible to that patient, and reuse message templates. Founded by Caroline
+> Merin (CEO, formerly COO at Rappi), Tom Chokel (CTO, formerly CTO at Modern Fertility)
+> and Arela Solis (Head of Operations), the company launched publicly in December 2025
+> and operates across Latin America and beyond. Leona ships as an iOS app, an Android app
+> and a web client — it does not publish a public developer API.
+
+## Status
+
+- No public API: Leona ships end-user apps. `api.leona.health` is the product's own
+  backend and publishes no OpenAPI, no reference documentation and no developer portal.
+- No `/.well-known/` discovery documents (see well-known/leona-well-known.yml).
+- No first-party SDKs, CLI or client packages published to npm, PyPI or other registries.
+
+## Product
+
+- Website: https://www.leona.health/en
+- Web app: https://web.leona.health/#/start
+- App download (iOS/Android): https://onelink.to/kvadu2
+- FAQs: https://www.leona.health/en/faqs
+- Careers: https://www.leona.health/en/careers
+
+## Writing
+
+- Blog: https://www.leona.health/en/blog
+- Introducing Leona: scaling human connection in healthcare (2025-12-16):
+  https://www.leona.health/en/blog/introducing-leona-scaling-human-connection-in-healthcare
+
+## Code
+
+- GitHub organization: https://github.com/Leona-Health
+
+## Legal
+
+- Terms and conditions: https://www.leona.health/en/tyc
+- Privacy notice: https://www.leona.health/en/privacidad
+
+## API Evangelist
+
+- Profile: https://apis.io/provider/leona/
+- APIs.json: https://raw.githubusercontent.com/api-evangelist/leona/refs/heads/main/apis.yml
+- Domain security probe: security/leona-domain-security.yml

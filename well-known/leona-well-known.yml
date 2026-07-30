@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of /.well-known/ paths on Leona hosts
+note: >-
+  No /.well-known/ documents are published on any Leona host. Every probed path
+  returned 404. This is a recorded negative result, not a gap in the harvest —
+  no WellKnown or SecurityTxt pointer is wired in apis.yml because there is
+  nothing to point at.
+hosts:
+- host: https://www.leona.health
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://api.leona.health
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
