@@ -10,6 +10,17 @@ description: 'Leona is a healthcare communication company building an AI co-pilo
   Fertility) and Arela Solis (Head of Operations), Leona launched publicly in December 2025
   and serves physicians across Latin America. It ships as iOS, Android and web clients and
   publishes no public developer API, SDKs or developer portal.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
